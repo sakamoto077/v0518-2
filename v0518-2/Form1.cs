@@ -11,5 +11,13 @@ namespace v0518_2
         {
             label1.Text = "(..)";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Top = 100;
+            label1.Text = "( .  .)";
+
+            MessageBox.Show("");
+        }
     }
 }
